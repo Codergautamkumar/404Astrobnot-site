@@ -1,0 +1,87 @@
+/*=================== GOOGLE FONT ================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/*===================== VARIABLE CSS ===================*/
+:root{
+    --header-height: 3.5rem;
+
+    /*========== Colors =============*/
+    /*Colors mode HSL(hue, saturation, lightness)*/
+    --white-color: hsl(0, 0%, 96%);
+    --black-color: hsl(0, 0%, 0%);
+
+    /*================ Font amd typography ============*/
+    /*.5rem = 8px | 1rem = 16px....*/
+    --body-font: "Space Grotesk", sans-serif;
+    --biggest-font-size: 3rem;
+    --normal-font-size: .938rem;
+
+    /*==================== Font weight =================*/
+    --font-regular: 400;
+    --font-bold: 700;
+
+    /*============ Z Index ===================*/
+    --z-index: 10;
+    --z-fixed: 100;
+}
+
+/*================== Responsive typography =============*/
+@media screen and (min-width: 1150px) {
+    :root{
+        --biggest-font-size: 6.5rem;
+        --big-font-size: 2rem;
+        --normal-font-size: 1rem;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*=========== REUSABLE CSS CLASSES ============*/
+.container{
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.main {
+    overflow: hidden;
+}
+
+/*=================== HEADER & NAV =================*/
+
+/* Navigation for mobile devices */
+
+/* Show menu */
+
+/* Add shadow header */
+
+/*====================== HOME ===============*/
+
+/* Animate blobs */
+
+/*=================== BREAKPOINT ================*/
+/* For small devices */
